@@ -66,10 +66,13 @@ function createFloatingImages() {
     const wrapper = document.createElement('div');
     wrapper.className = 'pic-wrapper';
     
+    
     const img = document.createElement('img');
     img.src = position.src;
     img.className = 'floating-pic';
-    
+    img.onerror = function() {
+    console.error("Failed to load image at: " + this.src);
+};
     // Set specific position
     wrapper.style.position = 'fixed';
     wrapper.style.top = position.top;
