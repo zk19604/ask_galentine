@@ -52,11 +52,11 @@ yesBtn.addEventListener("click", () => {
 
 // Array of images with specific positions
 const imagePositions = [
-  { src: './img1.jpg', top: '10%', left: '15%', rotation: -15, size: 120 },
-  { src: './img2.jpg', top: '15%', left: '75%', rotation: 12, size: 140 },
-  { src: './img3.jpg', top: '65%', left: '10%', rotation: -8, size: 110 },
-  { src: './img4.jpg', top: '70%', left: '80%', rotation: 20, size: 130 },
-  { src: './img5.jpg', top: '40%', left: '5%', rotation: -12, size: 115 }
+  { src: 'img1.jpg', top: '10%', left: '15%', rotation: -15, size: 120 },
+  { src: 'img2.jpg', top: '15%', left: '75%', rotation: 12, size: 140 },
+  { src: 'img3.jpg', top: '65%', left: '10%', rotation: -8, size: 110 },
+  { src: 'img4.jpg', top: '70%', left: '80%', rotation: 20, size: 130 },
+  { src: 'img5.jpg', top: '40%', left: '5%', rotation: -12, size: 115 }
 ];
 
 // Function to create floating images at specific positions
