@@ -75,7 +75,8 @@ function createFloatingImages() {
     wrapper.style.top = position.top;
     wrapper.style.left = position.left;
     wrapper.style.transform = `rotate(${position.rotation}deg)`;
-    wrapper.style.zIndex = '-1';
+    wrapper.style.zIndex = '1';
+    wrapper.style.pointerEvents = 'none'; // So they don't interfere with clicks
     
     // Set specific size
     img.style.width = position.size + 'px';
